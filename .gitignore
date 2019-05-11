@@ -64,5 +64,6 @@ typings/
 #credentials
 credentials/*.json
 
+package-lock\*.json
 
 content.json
