@@ -4,7 +4,7 @@ const robots = {
   text: require('./robots/text.js'),
   state: require('./robots/state.js'),
   image: require('./robots/imagem.js')
-}
+
 
 
 async function start() { 
@@ -13,8 +13,8 @@ async function start() {
   await robots.text()
   await robots.image()
 
-   const content = robots.state.load()
-   console.dir(content,{ depth: null})
+  const content = robots.state.load()
+  console.dir(content,{ depth: null})
   
  
 }
