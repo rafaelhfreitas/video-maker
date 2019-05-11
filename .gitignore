@@ -68,5 +68,5 @@ package-lock/*.json
 
 content.json
 
-
 content/*.png
+content/*.jpg
